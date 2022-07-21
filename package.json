@@ -1,0 +1,35 @@
+{
+	"$schema": "https://json.schemastore.org/package.json",
+	"name": "klik",
+	"version": "1.0.0",
+	"description": "Add proper keyboard click behavior to any element",
+	"type": "module",
+	"license": "CC0-1.0",
+	"files": [
+		"klik.js",
+		"klik.d.ts",
+		"global.js",
+		"global.d.ts"
+	],
+	"exports": {
+		".": {
+			"default": "./klik.js",
+			"types": "./klik.d.ts"
+		},
+		"./global": {
+			"default": "./global.js",
+			"types": "./global.d.ts"
+		},
+		"./package": "./package.json",
+		"./package.json": "./package.json"
+	},
+	"main": "klik.js",
+	"types": "klik.d.ts",
+	"unpkg": "klik.js",
+	"jsdelivr": "klik.js",
+	"sideEffects": false,
+	"author": "Jonathan Neal <jonathantneal@hotmail.com>",
+	"bugs": "https://github.com/jsxtools/klik/issues",
+	"homepage": "https://github.com/jsxtools/klik",
+	"repository": "https://github.com/jsxtools/klik.git"
+}
